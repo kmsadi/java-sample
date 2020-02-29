@@ -38,7 +38,7 @@ public class application {
 
 
   List<sensor> hotsensors=sensors.stream()
-          .filter(sensor -> sensor.getValue()>28)
+          .filter(sensor -> sensor.getValue()>22)
           .collect(Collectors.toList());
 
        System.out.println(hotsensors);

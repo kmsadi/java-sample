@@ -25,6 +25,14 @@ public class sensor {
         return value;
     }
 
+    @Override
+    public String toString() {
+        return "sensor{" +
+                "name='" + name + '\'' +
+                ", value=" + value +
+                '}';
+    }
+
     public void setValue(double value) {
         this.value = value;
     }
